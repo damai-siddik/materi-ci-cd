@@ -7,5 +7,5 @@ test:
 build:
 	go build -v .
 
-run:
+run: install
 	go run main.go
